@@ -1,0 +1,32 @@
+# Python
+*.pyc
+__pycache__/
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+*.log
+*.pot
+*.sqlite3
+local_settings.py
+media/ # Or wherever you store uploaded files
+static/ # If you're collecting static files into a single directory
+
+# IDE-specific files (e.g., PyCharm)
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual environment files
+.env
+
+# Testing and coverage
+.coverage
+.tox/
+.eggs/

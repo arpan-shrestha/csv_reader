@@ -1,0 +1,5 @@
+Template key,Recipient,Trigger Event,Service 
+CREDIT_LIMIT_REACHED,goes to all contacts of site which are ENABLED,Site credit limit reached,validateCreditLimitUsage
+NON_PBS_REPORT_SUCCESSFUL_VALIDATION,goes to recipient email saved in settings. service,non pbs report successful validation,SaveNonPbsValidationItems
+ORDER_REJECTION,goes to order created by user email and also goes to site primary contacts which is ENABLED,order rejection,createOrderRection
+,goes to order created by user email and also goes to site primary contacts which is ENABLED. service:,order modified
